@@ -1,0 +1,186 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: content-box ;
+}
+
+
+body {
+  background: rgb(15, 21, 13);
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family:'Gabarito', sans-serif;;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url("images/greenbackground.jpg");
+  background-position:center ;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 80%;
+  
+
+}
+
+main {
+  max-width: 1000px
+  background:;
+
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 9vh;
+  min-height: 42vh;
+  margin-bottom: 2vh;
+}
+
+.no-bg {
+
+background-image:none;
+
+
+
+}
+
+
+main {
+  padding:1em;
+
+}
+
+
+
+/* typography--------------------------------------------------- */
+p {
+  font-weight: 400;
+  margin: auto ;
+  margin-bottom: 36px;
+  color:antiquewhite;
+  text-align: center  ;
+  
+  max-width: 35em;
+  font-size: 25px;
+  letter-spacing: 2px;
+  
+
+
+}
+
+h1{
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 62px;
+  letter-spacing: 5px;
+  text-align: center;
+  color:orange;
+  margin-bottom: 20px;
+
+  
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 50px;
+  Line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: orange;
+ ]
+
+}
+
+h5 {
+  font-size:large;
+  color:antiquewhite;
+}
+
+.button{
+color:greenyellow;
+border: solid 2px;
+border-radius: 32px;
+font-weight: 700;
+text-decoration: none;
+padding:4px 16px;
+margin-top:1em;
+margin-bottom: 1em;
+display:inline-block; 
+transition: all 0.5s;
+font-size: large;
+
+}
+
+.button:hover {
+  color:orange;
+font-size: small;
+
+
+}
+
+.center {
+  text-align: center;
+
+}
+
+.full-width{
+  max-width: 100%;
+}
+
+.informationabout{
+  
+    font-weight: 400;
+    margin: auto;
+    margin-bottom: 46px;
+    color:antiquewhite;
+    max-width: 47em;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height:40px ;
+  
+
+
+}
+
+/* Grid--------------------------------------------------- */
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* Navagation--------------------------------------------------- */
+
+header{
+  background:rgba(0, 0, 0, 0.5);
+  max-width:430px;
+  padding: 15px 16px;
+  border-radius:32px;
+  margin:auto;
+  Display: grid; 
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+ align-items: center;
+ position: sticky;
+ top: 16px;
+backdrop-filter: blur(3px);
+
+}
+
+Header a {
+color: greenyellow;
+text-decoration: none;
+font-weight: 800;
+transition: all 0.5;
+}
+
+header a:hover {
+opacity: 80%;
+color :orange
+}
